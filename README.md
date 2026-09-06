@@ -28,6 +28,11 @@ avif-enc.sh --fi jpg -n
 ### Real conversion with custom quality and processing speed
 ``` bash
 avif-enc.sh --fi png -q 90 -s 5
+```
+
+### Real conversion with delete original file
+``` bash
+avif-enc.sh --fi png -d
 ``` 
 
 ### Using a config file
